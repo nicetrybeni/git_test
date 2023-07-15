@@ -1,21 +1,46 @@
 /* tags without dot (.) are HTML original tags, while dots stands
-for calling specific classes. */
-h1 {
-    color: blueviolet;
-}
-h6 {
-    color: aquamarine;
+for calling specific classes. 
+. = class
+# = id
+*/
+body {
+    background-color: #a7dbe3;
+    color: white;
+    font-size: 21px;
 }
 
-div {
-    background-color:  yellow;
+h1 {
+    font-size: 70px;
+    color: #3747b3;
 }
-span {
+
+p {
+    color: #2f4c5c;
+}
+/* the css box model */
+/*
+    Margin: empty space around the element
+    Border: a border/stroke around the element
+    Padding: empty space with background around the element
+    All of these ADD on top of the WIDTH and HEIGHT!
+    .box {
     background: pink;
-}
-.first-div {
-    background-color: blueviolet;
-}
-.second-div {
-    background-color: red;
+    width: 300px;
+    margin: 100px;
+
+    border: 10px solid red;
+    padding: 100px 25px; /* top right bottom left 
+    300px + 100px + 100px + 25px + 25px + 10px + 10px = 570px
+    */
+    
+*/
+.box {
+    background: pink;
+    width: 300px;
+    margin: 100px;
+
+    border: 10px solid red;
+    padding: 100px 25px; /* top right bottom left */
+
+
 }
