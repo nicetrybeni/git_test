@@ -1,0 +1,21 @@
+/* tags without dot (.) are HTML original tags, while dots stands
+for calling specific classes. */
+h1 {
+    color: blueviolet;
+}
+h6 {
+    color: aquamarine;
+}
+
+div {
+    background-color:  yellow;
+}
+span {
+    background: pink;
+}
+.first-div {
+    background-color: blueviolet;
+}
+.second-div {
+    background-color: red;
+}
