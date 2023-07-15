@@ -41,3 +41,27 @@ p {
     background-size: cover;
     background-position: top;
 }
+/* Arrangement: LINK -> HOVER -> VISITED -> ACTIVE*/
+/* 
+a { 
+    color: black;
+}
+a:hover {
+    color: blue;
+}
+a:hover, a:focus {
+    color: #555;
+}        
+*/
+a:link{
+    color: black;
+}
+a:hover {
+    color: #3747b3;
+}
+a:visited {
+    color: red;
+}
+a:active {
+    color: yellow;
+}
