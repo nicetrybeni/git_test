@@ -7,6 +7,7 @@ body {
     background-color: #a7dbe3;
     color: white;
     font-size: 21px;
+    text-align: center;
 }
 
 h1 {
@@ -58,4 +59,28 @@ a:hover, a:focus {
 .important-link,
 .body-text .important-link {
     color: yellow;
+}
+ol {
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}
+/* 
+ul {
+    list-style-image: ulr(../img/icon.png); This selects an icon image "CAREFUL WITH THE SIZE"
+}
+*/
+ul {
+    list-style-type: circle;
+    background-color: pink;
+}
+/*
+ul li, ol li {
+    background-color: red;
+    margin-bottom: 15px;
+}
+*/
+ol li {
+    background-color: blue;
+    margin-bottom: 10px;
+    color: white;
 }
