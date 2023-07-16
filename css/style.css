@@ -72,6 +72,7 @@ ul {
 ul {
     list-style-type: circle;
     background-color: pink;
+    list-style-position: inside;
 }
 /*
 ul li, ol li {
@@ -84,3 +85,17 @@ ol li {
     margin-bottom: 10px;
     color: white;
 }
+
+.red-box {
+    height: 500px;
+    width: 500px;
+    background: pink;
+    float: left;
+}
+.blue-box {
+    height: 400px;
+    width: 700px;
+    background: blue;
+    float: left;
+}
+/* clear: both; Creates a new line for floating boxes w/ colors*/ 
