@@ -32,15 +32,6 @@ p {
     padding: 100px 25px; /* top right bottom left 
     300px + 100px + 100px + 25px + 25px + 10px + 10px = 570px
     */
-
-.box {
-    background-image: url(../img/bebegrad.jpg);
-    padding: 600px;
-    margin: 100px;
-
-    background-size: cover;
-    background-position: top;
-}
 /* Arrangement: LINK -> HOVER -> VISITED -> ACTIVE*/
 /* 
 a { 
@@ -53,15 +44,18 @@ a:hover, a:focus {
     color: #555;
 }        
 */
-a:link{
-    color: black;
+.body-text {
+    background-color: pink;
+    padding: 50px;
 }
-a:hover {
-    color: #3747b3;
+
+.body-text p {
+    color: white;
 }
-a:visited {
+.body-text a {
     color: red;
 }
-a:active {
+.important-link,
+.body-text .important-link {
     color: yellow;
 }
