@@ -1,0 +1,109 @@
+/* tags without dot (.) are HTML original tags, while dots stands
+for calling specific classes. 
+. = class
+# = id
+*/
+body {
+    background-color: #a7dbe3;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    color: #3747b3;
+}
+
+p {
+    color: #2f4c5c;
+}
+/* the css box model */
+/*
+    Margin: empty space around the element
+    Border: a border/stroke around the element
+    Padding: empty space with background around the element
+    All of these ADD on top of the WIDTH and HEIGHT!
+    .box {
+    background: pink;
+    width: 300px;
+    margin: 100px;
+
+    border: 10px solid red;
+    padding: 100px 25px; /* top right bottom left 
+    300px + 100px + 100px + 25px + 25px + 10px + 10px = 570px
+    */
+/* Arrangement: LINK -> HOVER -> VISITED -> ACTIVE*/
+/* 
+a { 
+    color: black;
+}
+a:hover {
+    color: blue;
+}
+a:hover, a:focus {
+    color: #555;
+}        
+*/
+.body-text {
+    background-color: pink;
+    padding: 50px;
+}
+
+.body-text p {
+    color: white;
+}
+.body-text a {
+    color: red;
+}
+.important-link,
+.body-text .important-link {
+    color: yellow;
+}
+ol {
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}
+/* 
+ul {
+    list-style-image: ulr(../img/icon.png); This selects an icon image "CAREFUL WITH THE SIZE"
+}
+*/
+ul {
+    list-style-type: circle;
+    background-color: pink;
+    list-style-position: inside;
+}
+/*
+ul li, ol li {
+    background-color: red;
+    margin-bottom: 15px;
+}
+*/
+ol li {
+    background-color: blue;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.red-box {
+    height: 500px;
+    width: 500px;
+    background: pink;
+    float: left;
+}
+.blue-box {
+    height: 400px;
+    width: 700px;
+    background: blue;
+    float: left;
+}
+/* clear: both; Creates a new line for floating boxes w/ colors*/ 
+/* Picking color in CSS has hex/rgba/hsla always use HEX */ 
+.container {
+    background: white;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* to center a dive use margin-left: auto; and margin-right: auto; */ 
