@@ -1,48 +1,26 @@
-body {
-    background-color: #CDE780;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
-    margin: 0;
-}
-
-header {
-    background-color: #59594A;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    margin-bottom: 100px;
-}
-/* Margin 0 auto 0 = TOP/BOTTOM auto = LEFT/RIGHT*/
-/* width holds to 80% of the screen*/
+/*display: flex; is important transitions things to upper left */
 .container {
-    width: 80%;
-    margin: 0 auto;
+    display: flex;
 }
 
-section {
-   float: left;
-   width: 70%;
-   margin-bottom: 100px;
-}
-aside {
-    float: right;
-    width: 25%;
-}
-footer {
-    clear: both;
-    background-color: #7286A0;
-    padding: 50px 0;
+.container > div {
+    padding: 10px;
     text-align: center;
+    font-size: 2em;
+    color: #ffeead;
 }
-/* To put your footer in the bottom area use this code:
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #7286A0;
-  padding: 50px 0;
-  text-align: center;
+
+html, body {
+    background-color: #ffeead;
+    margin: 10px;
 }
-*/
+/* div (1) = home so ON */
+.container > div:nth-child(1) {
+    background-color: #96ceb4;
+}
+.container > div:nth-child(2) {
+    background-color: #ce96a2;
+}
+.container > div:nth-child(3) {
+    background-color: #f84444;
+}
