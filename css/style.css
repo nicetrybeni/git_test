@@ -1,4 +1,6 @@
 .container {
+    /*flex-direction: column; */
+    justify-content: flex-end;
     height: 140px;
     padding: 16px;
     background: plum;
