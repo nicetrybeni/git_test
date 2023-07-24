@@ -1,3 +1,2 @@
-# git_test
-My first Github repo! using git bash
-Hello Odin!
+# Project: Landing Page
+Created a landing page using HTML & CSS.
