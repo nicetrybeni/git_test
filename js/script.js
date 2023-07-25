@@ -8,6 +8,22 @@
 
 //Avoid using var in modern JavaScript development as it has some drawbacks, such as hoisting and function scope
 //which can lead to unexpected behavior. Instead, prefer let and const for better code maintainability and clarity.
-const max = 57;
-let actual = max - 13;
-let percentage = actual / max ;
+
+/*Precedence Grouping: ()
+Exponentiation: **
+Multiplication, Division, Modulus: *, /, %
+Addition and Subtraction: +, -
+Comparison: <, >, <=, >=, ==, !=, ===, !==
+Logical AND: &&
+Logical OR: ||
+Ternary (Conditional) Operator: ? :
+Assignment: =, +=, -=, *=, /=, etc.
+*/
+
+// Open console in browser press F12 to open CONSOLE.
+
+// "+" The unary plus operator in JavaScript converts a string representation of an integer into an actual numeric value.
+let strNum = "10";
+let strNumx = +strNum;
+let sum = strNumx + 2;
+console.log(sum)
